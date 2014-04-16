@@ -1,0 +1,43 @@
+html
+	title
+		|Fruit stall
+	body
+		center 
+			table border="3"
+				tr
+					td
+						|Apple
+					td
+						|Banana
+					td
+						|Grape
+				tr
+					td
+						|100
+					td
+						|100
+					td
+						|100
+				tr
+					td
+						|Simla
+					td
+						|Karnataka
+					td
+						|Ooty
+			br
+		
+			form  action='/' method='post'
+				|Enter item :	
+				input type="text" name="item" 
+				br
+				|Enter Qty :	
+				input type="text" name="Qty" 
+				br
+				input type="submit" value="Sub" 
+
+			= @@msg
+			br
+				= @@mg
+				
+

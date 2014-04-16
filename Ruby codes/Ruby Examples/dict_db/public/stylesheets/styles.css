@@ -1,0 +1,104 @@
+#header{
+color: #fff;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+font: 25px 'ChunkFiveRegular';
+	text-align		: center;
+}
+
+#navigation {
+	background		: #4D8FA3;
+	padding			: 10px 0;
+}
+
+.liststyle {
+	list-style-type	: none;
+	display			: inline;
+	margin-left		: 20px;
+	margin-right	: 20px;
+}
+
+.headerlistlink {
+	color			: white;
+}
+
+
+li a {
+color: #fff;
+        text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+        font: 24px 'BlackJackRegular';
+	font-family		: Arial;
+	font-size		: 24px;
+	text-decoration	: none;
+}
+
+li a:hover
+{
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+font: 24px 'Arial';
+
+}
+
+#hone{
+color: #fff;
+        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+        font: 30px 'ChunkFiveRegular';
+}
+#hone:hover{
+text-shadow:5px 5px 5px #FF552A;}
+#htwo{
+color: #fff;
+        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+        font: 25px 'ChunkFiveRegular';
+}
+table{
+margin:auto;
+align:center;}
+
+#addword,#searchword ,#modify{
+	padding			: 20px 20px;
+
+}
+#messageE{
+color			: yellow;
+	font-family		: Arial;
+	font-size		: 14px;
+	text-align		: center;
+	padding			: 20px 0;
+}
+
+#message {
+	color			: yellow;
+	font-family		: Arial;
+	font-size		: 14px;
+	text-align		: center;
+	padding			: 20px 0;
+}
+#bdy{
+text-align:center;
+
+	}
+body
+{
+background-image:url('11.jpg');
+background-repeat:no-repeat;
+background-size:1024px 768px;
+background-color:#cccccc;
+}
+
+#footer{
+color: #fff;
+        text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+        font: 24px 'BlackJackRegular';
+position:fixed;
+	top: 550px;
+	width: 100%;
+	height: 60px;
+	text-align:center;
+
+}
+#name1
+{
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+        font: 20px 'BazarMedium';
+        letter-spacing: 5px;}

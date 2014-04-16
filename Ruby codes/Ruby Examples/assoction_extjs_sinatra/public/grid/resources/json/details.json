@@ -1,0 +1,33 @@
+[
+    {
+        id: 1,
+        name: "a",
+        details: [
+            {	
+				dname	 : 'one',	
+				id 		 : 1,
+				master_id	 : 1	
+            },
+			{
+				dname	 : 'two',	
+				id 		 : 2,
+				master_id	 : 1	
+            }
+        ]
+    },{
+        id: 2,
+        name: "b",
+        details: [
+            {
+				dname	 : 'test',
+				id 		 : 3,
+				master_id	 : 2	
+            },
+			{
+				dname	 : 'test2',	
+				id 		 : 4,
+				master_id	 : 2	
+            }
+        ]
+    }
+]	

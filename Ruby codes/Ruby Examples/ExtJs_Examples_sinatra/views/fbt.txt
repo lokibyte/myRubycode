@@ -1,0 +1,13 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is D4DA-4317
+
+ Directory of E:\Ruby\ExtJs\views
+
+08/04/2012  02:05 PM    <DIR>          .
+08/04/2012  02:05 PM    <DIR>          ..
+08/04/2012  02:05 PM                 0 fbt.txt
+08/04/2012  01:30 PM               153 hello.html
+08/04/2012  02:02 PM                64 hello.slim
+08/04/2012  01:26 PM                99 hello.txt
+               4 File(s)            316 bytes
+               2 Dir(s)  112,701,480,960 bytes free

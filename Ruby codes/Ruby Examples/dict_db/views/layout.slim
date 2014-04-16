@@ -1,0 +1,50 @@
+html
+	head
+		link href="1.gif" type="image/gif" rel="icon""
+		title
+			| Lokesh's Dictionary
+			
+		link href='stylesheets/styles.css' rel='stylesheet' type='text/css'
+		
+		div id='bdy'
+			body 
+				div id='header'
+					h1 DICTIONARY
+				
+				div id='navigation'
+					ul
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/"
+								|Home
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/add"
+								|add a word
+					
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/search"
+								|search
+					
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/modify"
+								|edit
+					
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/delet"
+								|delete
+					
+						li class='headerli liststyle'
+							a class='headerlistlink' href="/list"
+								|list
+						
+				
+				== yield
+				
+				div id='footer'
+					ul
+						li class='liststyle'
+							a href='#'
+								| About Us
+						
+						li class='liststyle'
+							a href='#'
+								| Contact

@@ -1,0 +1,25 @@
+div id='message'
+	b
+		- if @@message
+			== @@message
+			
+
+div id='addword'
+	form action='/add' method='put'
+		
+		table
+			tr
+				td
+					label for='namefield' id='name1' Enter Word
+				td
+					input id='namefield' type='text' name='word'
+			
+			tr
+				td
+					label for='meanfield' id='name1' Enter Meaning
+				td
+					input id='meanfield' type='text' name='meaning'
+			
+			tr	
+				td colspan=2
+					input type='submit' value='Add a Word to Dictionary'

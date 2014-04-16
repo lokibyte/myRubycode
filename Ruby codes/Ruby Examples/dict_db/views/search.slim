@@ -1,0 +1,14 @@
+div id='message'
+	b
+		= @@messageS
+	
+div id='searchword'
+	form action='/searching' method='get'
+		table
+			tr
+				td
+				label for='searchfield'id='name1' Enter Word to Search 
+				td
+				input id='searchfield' type='text' size=80 name='search'
+			tr
+					input type='submit' value="Search Word"

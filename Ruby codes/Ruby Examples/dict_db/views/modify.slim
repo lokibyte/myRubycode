@@ -1,0 +1,23 @@
+div id='message'
+		- if @@messageE
+			b
+				= @@messageE
+
+div id='modify'
+
+form action='/modify' method='put'
+	table
+		tr
+			td
+				label for='namefield' id='name1' Enter Word to modify
+			td
+				input id='searchfield' type='text' name='word'
+		tr
+			td
+				label for='meanfield' id='name1' Enter the meaning
+			td
+				input id='searchfield1' type='text' name='meaning'
+		tr
+			td 
+			td
+				input type='submit' value="Edit Word"
